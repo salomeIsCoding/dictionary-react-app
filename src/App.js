@@ -1,15 +1,13 @@
 import "./App.css";
-import Search from "./Search";
+import Dictionary from "./Dictionary";
 
 function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App-header">
-          <h1>Dictionary</h1>
-        </header>
+        <header className="App-header"></header>
         <main>
-          <Search />
+          <Dictionary />
         </main>
         <footer>Coded by Salomé Erard</footer>
       </div>

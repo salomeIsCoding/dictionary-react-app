@@ -1,0 +1,13 @@
+.dictionary {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 15px;
+  max-width: 1100px;
+  background-color: white;
+}
+
+h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}

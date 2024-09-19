@@ -1,5 +1,6 @@
 import React from "react";
+import "./Search.css";
 
 export default function Search() {
-  return <p>test</p>;
+  return <p>Search</p>;
 }
