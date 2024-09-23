@@ -21,8 +21,7 @@ export default function Search() {
     let apiUrl = `https://api.shecodes.io/dictionary/v1/define?word=${keyword}&key=${apiKey}`;
     axios.get(apiUrl).then(handleResponse);
   }
-  //api.shecodes.io/dictionary/v1/define?word={word}&key={te659a2ao0cb8e3d11cb64043bff9883}
-  https: return (
+  return (
     <div>
       <form onSubmit={search}>
         <input type="submit" value="" />
