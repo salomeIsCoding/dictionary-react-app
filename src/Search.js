@@ -35,7 +35,7 @@ export default function Search() {
           onChange={handleKeywordChange}
         />
       </form>
-      <div className="border-bottom mt-5"></div>
+      <div className=" mt-5"></div>
       <Results results={results} />
     </div>
   );

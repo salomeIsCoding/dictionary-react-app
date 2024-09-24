@@ -15,7 +15,7 @@ export default function Results(props) {
 
   if (props.results) {
     return (
-      <div className="results text-start">
+      <div className="border-top results text-start">
         <h2 className="mt-5">{props.results.word}</h2>
         <div className="d-flex justify-content-start">
           <div className="row">
