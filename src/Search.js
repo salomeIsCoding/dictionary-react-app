@@ -26,9 +26,8 @@ export default function Search() {
   }
 
   return (
-    <div>
+    <div className="px-5">
       <form onSubmit={search}>
-        <input type="submit" value="" />
         <input
           type="search"
           placeholder="search here"
@@ -36,6 +35,7 @@ export default function Search() {
           onChange={handleKeywordChange}
         />
       </form>
+      <div className="border-bottom mt-5"></div>
       <Results results={results} />
     </div>
   );
