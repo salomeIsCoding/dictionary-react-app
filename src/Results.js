@@ -20,7 +20,7 @@ export default function Results(props) {
         <div className="d-flex justify-content-start">
           <div className="row">
             <div className="col pe-0">
-              <p className="text-secondary">/{props.results.phonetic}/</p>
+              <p className="text-secondary mb-5">/{props.results.phonetic}/</p>
             </div>
             <div className="col ps-2">
               {imagesList.map((image) => (
