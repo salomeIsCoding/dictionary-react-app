@@ -24,7 +24,7 @@ export default function Results(props) {
             </div>
             <div className="col ps-2">
               {imagesList.map((image) => (
-                <img key={2} src={image2} alt="" height="30" />
+                <img key={2} src={image2} alt="" height="25" />
               ))}
             </div>
           </div>
